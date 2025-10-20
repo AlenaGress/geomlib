@@ -1,0 +1,22 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geomlib"
+version = "0.1.0"
+description = "Библиотека для вычисления площадей фигур (круг, треугольник) с расширяемым реестром."
+authors = [{ name = "Alena Gress" }]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["geometry", "area", "shapes", "triangle", "circle"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
